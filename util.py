@@ -7,7 +7,7 @@ from scipy.spatial.distance import euclidean
 mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 
-# --- Funciones Auxiliares ---
+# --- Funciones Auxiliares -----
 
 def calcular_angulo(a, b, c):
     """Calcula el ángulo entre tres puntos (en grados)."""
